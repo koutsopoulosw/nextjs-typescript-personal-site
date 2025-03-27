@@ -1,3 +1,8 @@
+# About
+This is a practice project I may use for a website
+
+# Auto Generated Stuff
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
