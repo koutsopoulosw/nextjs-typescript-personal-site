@@ -5,22 +5,13 @@ import Resume from "./ui/resume";
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr] items-center justify-items-start min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <header className="mb-4 justify-start">
+      <header className="mb-4 mt-12 justify-start">
         <h1 className="text-4x1 md:text-5xl lg:text-6xl font-extrabold leading-none pb-6">Alex Koutsopoulos</h1>
         <h2 className="text-2x1 md:text-3xl lg:text-4xl pb-2">Full Stack Engineer</h2>
         <h3 className="text-l md:text-xl lg:text-2xl text-slate-400 ml-8">Also known as Willard</h3>
       </header>
-      <div className="flex flex-row gap-8 w-full justify-between">
-        <main className="flex flex-col gap-8 items-center sm:items-start justify-self-start">
-          <Image
-            className="dark:invert"
-            src="/next.svg"
-            alt="Next.js logo"
-            width={180}
-            height={38}
-            priority
-          />
-          
+      <section className="flex flex-row gap-8 w-full justify-between">
+        <main className="flex flex-col gap-8 items-center sm:items-start justify-self-start">          
           <Resume />
           <div className="flex gap-4 items-center flex-col sm:flex-row">
             <a
@@ -95,7 +86,7 @@ export default function Home() {
             Go to nextjs.org →
           </a>
         </footer>
-      </div>
+      </section>
     </div>
   );
 }
