@@ -6,7 +6,7 @@ interface IResumeItem {
 
 export const ResumeItem : React.FC<IResumeItem> = ({item}) => {
   return (
-    <li className="mb-4">
+    <li className="mb-6">
       <h2 className="text-l md:text-xl lg:text-2xl">{item.jobTitle}</h2>
       <br />
       <div className="flex flex-row justify-between">
