@@ -6,14 +6,13 @@ interface IResumeItem {
 
 export const ResumeItem : React.FC<IResumeItem> = ({item}) => {
   return (
-    <li className="mb-6">
-      <h2 className="text-l md:text-xl lg:text-2xl">{item.jobTitle}</h2>
-      <br />
-      <div className="flex flex-row justify-between">
-        <h3 className="text-m md:text-l lg:text-xl">{item.companyName}</h3>
-        <h3 className="text-m md:text-l lg:text-xl">{`${item.startDate} - ${item.endDate}`}</h3>
+    <li className="mb-10">
+      <h2 className="text-l md:text-xl lg:text-xl font-bold">{item.jobTitle}</h2>
+      <div className="flex flex-row justify-between mb-4">
+        <h3 className="text-m md:text-l lg:text-l font-semibold">{item.companyName}</h3>
+        <h3 className="text-m md:text-l lg:text-l font-semibold">{`${item.startDate} - ${item.endDate}`}</h3>
       </div>
-      <p className="text-s md:text-m lg:text-l">{item.description}</p>
+      <p className="text-s md:text-s lg:text-s">{item.description}</p>
     </li>
   )
 }
