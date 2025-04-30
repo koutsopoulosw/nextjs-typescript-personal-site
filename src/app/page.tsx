@@ -5,7 +5,7 @@ import NavBar from "./ui/navBar";
 
 export default function Home() {
   return (
-    <div className="flex flex-row justify-center min-h-screen gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="flex flex-row justify-center min-h-screen gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] text-slate-700 bg-stone-100">
       <section className="flex flex-col gap-8 lg:w-5xl justify-between">
         <header className="justify-start mb-4">
           <h1 className="text-3x1 md:text-4xl lg:text-5xl font-extrabold leading-none pb-6">Alex Koutsopoulos</h1>
