@@ -29,9 +29,10 @@ export default function Home() {
           </p>
           <Resume />
         </main>
-        <nav className="sticky top-0 right-0 h-screen flex-col justify-center">
+      </section>
+      <nav className="fixed top-0 right-0 h-screen flex flex-col justify-center">
           <NavBar />
-          <footer className="flex flex-col flex-1 gap-12 flex-wrap items-end justify-center justify-self-end max-w-xs">
+          <footer className="flex flex-col gap-12 flex-wrap items-end justify-center justify-self-end max-w-xs mr-4">
             <a
               className="flex items-center gap-2 hover:underline hover:underline-offset-4"
               href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
@@ -64,7 +65,6 @@ export default function Home() {
             </a>
           </footer>
         </nav>
-      </section>
     </div>
   );
 }
