@@ -9,7 +9,7 @@ export default function Resume() {
   
   return (
     <div className="mt-4">
-      <h2 className="text-x1 md:text-2xl lg:text-3xl pb-2">Work Experience</h2>
+      <h2 className="text-x1 md:text-2xl lg:text-3xl pb-8">Work Experience</h2>
       <ol className="list-none text-sm text-left">
         {resumeList}
       </ol>
