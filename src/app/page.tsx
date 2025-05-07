@@ -17,7 +17,7 @@ export default function Home() {
             <p>
               I'm a Full Stack Software Engineer who's passionate about building responsive Frontends and innovative Backends using the latest technology and frameworks.
               Most of my experience has utilized React, Node.js, and Serverless AWS, but I've also quickly picked up and used many technologies as required. I love learning, 
-              whether it's about the newest frameworks, Japanese, or Physics and other similar topics.
+              whether it's about the newest frameworks, Japanese, or Physics and other similar topics!
             </p>
             <p>
               I'm currently unemployed, just having come back from living in Tokyo studying Japanese full time. It was an amazing experience, and I was able to pass my JLPT N2
