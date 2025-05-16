@@ -8,13 +8,9 @@ export default function Page() {
         <header className="justify-start mb-4">
           <h1 className="text-3x1 md:text-4xl lg:text-5xl font-extrabold leading-none pb-6">List App</h1>
         </header>
-        <main className="flex flex-col">
-          <div className="pb-8">
-            <p>
-              List App!
-            </p>
-          </div>
-        </main>
+          <p>
+            List App!
+          </p>
       </section>
     </div>
   );
