@@ -4,7 +4,7 @@ import LinkButton from "./linkButton";
 export default function NavBar() {
   
   const navBarItems = navLinks.map(item => 
-    <LinkButton item={item}/>
+    <LinkButton key={item.label} item={item}/>
   );
   
   return (

@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Linkedin } from 'lucide-react';
 import Resume from "./ui/resume";
 import NavBar from "./ui/navBar";
+import NoteTakingApplet from "./ui/noteTakingApplet";
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
           </header>
           <div>
             <h3 className="text-l md:text-xl lg:text-2xl text-slate-400">Note-taking Applet Example</h3>
+            <NoteTakingApplet />
           </div>
         </section>
       </main>
