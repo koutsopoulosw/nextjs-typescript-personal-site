@@ -11,7 +11,7 @@ export default function Home() {
         <header className="justify-start mb-4">
           <h1 className="text-3x1 md:text-4xl lg:text-5xl font-extrabold leading-none pb-10">Alex Koutsopoulos</h1>
           <h2 className="text-2x1 md:text-3xl lg:text-4xl pb-2">Full Stack Engineer</h2>
-          <h3 className="text-l md:text-xl lg:text-2xl text-slate-400">Full Stack Software Engineer with 6 years of experience building just about anything at some point</h3>
+          <h3 className="text-lg md:text-xl lg:text-2xl text-slate-400">Full Stack Software Engineer with 6 years of experience building just about anything at some point</h3>
         </header>
         <section className="flex flex-col" id="summary">
           <div className="pb-8">
